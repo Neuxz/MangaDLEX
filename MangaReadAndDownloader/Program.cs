@@ -11,7 +11,7 @@ namespace MangaReadAndDownloader
     {
         static void Main(string[] args)
         {
-            CurenDevice cdir = new CurenDevice();
+            CurenDevice cdir = new CurenDevice();//Does Stuff
             cdir.CD = Environment.CurrentDirectory;
             cdir.MaName = Environment.MachineName;
             cdir.PCC = Environment.ProcessorCount;
