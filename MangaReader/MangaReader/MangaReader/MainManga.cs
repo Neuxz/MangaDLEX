@@ -2,9 +2,9 @@
 
 namespace MangaReader
 {
-	public class MyClass
+	public class MainManga
 	{
-		public MyClass ()
+		public MainManga()
 		{
 		}
 	}

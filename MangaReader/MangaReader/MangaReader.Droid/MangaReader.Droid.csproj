@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>a404f380-1ad5-4d36-bd8a-a9374d551a71</ProjectGuid>
+    <ProjectGuid>{A404F380-1AD5-4D36-BD8A-A9374D551A71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MangaReader.Droid</RootNamespace>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -62,6 +62,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
   </ItemGroup>
-      <Import Project="..\MangaReader\MangaReader.projitems" Label="Shared" Condition="Exists('..\MangaReader\MangaReader.projitems')" />
+  <Import Project="..\MangaReader\MangaReader.projitems" Label="Shared" Condition="Exists('..\MangaReader\MangaReader.projitems')" />
+  <Import Project="..\MangaReader\MangaReader.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

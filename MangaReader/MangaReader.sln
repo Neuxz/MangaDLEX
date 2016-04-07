@@ -13,6 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaReader.Win", "ConsoleA
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MangaReader\MangaReader\MangaReader.projitems*{c1089eb5-d79b-4053-8c63-117adffe15f4}*SharedItemsImports = 4
+		MangaReader\MangaReader\MangaReader.projitems*{a404f380-1ad5-4d36-bd8a-a9374d551a71}*SharedItemsImports = 4
+		MangaReader\MangaReader\MangaReader.projitems*{04cab27a-80d5-40a0-933a-c2b5564f629a}*SharedItemsImports = 4
 		MangaReader\MangaReader\MangaReader.projitems*{83d94a4f-8f54-47ba-bda2-4a64470b8e43}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
