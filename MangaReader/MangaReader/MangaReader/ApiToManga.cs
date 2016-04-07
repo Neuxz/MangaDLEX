@@ -8,16 +8,22 @@ namespace MangaReader
     class ApiToManga
     {
         private static ApiToManga thisObject;
+        private string DeviceName;
+
         private ApiToManga()
         {
-
+            DeviceName = ("UnknownDevice");
+        }
+        private ApiToManga(string DeviceName)
+        {
+            this.DeviceName = DeviceName;
         }
 
-        public static ApiToManga GetApiToManga()
+        public static ApiToManga GetApiToManga(String DeviceName)
         {
             if(thisObject == null)
             {
-                thisObject = new ApiToManga();
+                thisObject = new ApiToManga(DeviceName);
                 return thisObject;
             }
             return thisObject;
@@ -28,7 +34,7 @@ namespace MangaReader
             bool canConnect = false;
 
             HttpWebRequest myRequest =
-                 (HttpWebRequest)WebRequest.Create(IP);
+                 (HttpWebRequest)WebRequest.Create(IP + "/LogIn&?=" + DeviceName);
             Console.WriteLine(myRequest.GetResponse());
             try
             {
