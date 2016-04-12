@@ -1,5 +1,6 @@
 # MangaDLEX
-A Manga Download and Reader
+A cross Platform Manga Download and Reader
+focused for the use on mobile devices.
 
 ##Currently on alpha State.
 Works in future with [Herlock's Manga Downloader](https://github.com/herrlock/Manga)
