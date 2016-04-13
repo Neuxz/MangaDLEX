@@ -57,7 +57,7 @@ namespace MangaReader
                 using (System.IO.StreamReader reader = new System.IO.StreamReader(response.GetResponseStream()))
                 {
 
-                    returner = reader.ReadToEnd()));
+                    returner = reader.ReadToEnd();
                 }
             }
             return returner;

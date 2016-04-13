@@ -12,4 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiToManga.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainManga.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)ApiKonzepZuMangat.txt" />
+  </ItemGroup>
 </Project>

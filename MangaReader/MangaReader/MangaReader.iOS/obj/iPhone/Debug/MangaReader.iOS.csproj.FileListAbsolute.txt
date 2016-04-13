@@ -1,0 +1,6 @@
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\obj\iPhone\Debug\MangaReader.iOS.csprojResolveAssemblyReference.cache
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\bin\iPhone\Debug\MangaReaderiOS.exe
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\bin\iPhone\Debug\MangaReaderiOS.pdb
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\obj\iPhone\Debug\MangaReaderiOS.exe
+C:\Users\Benedikt\Source\Repos\MangaDLEX\MangaReader\MangaReader\MangaReader.iOS\obj\iPhone\Debug\MangaReaderiOS.pdb
