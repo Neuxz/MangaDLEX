@@ -29,12 +29,12 @@ namespace MangaReader
             return thisObject;
         }
 
-        public bool Connect(String IP)
+        public bool Connect(String IP, bool login)
         {
             bool canConnect = false;
 
             HttpWebRequest myRequest =
-                 (HttpWebRequest)WebRequest.Create(IP + "/LogIn&?=" + DeviceName);
+                 (HttpWebRequest)WebRequest.Create(IP +  + DeviceName);
             Console.WriteLine(myRequest.GetResponse());
             try
             {
@@ -62,5 +62,10 @@ namespace MangaReader
             }
             return returner;
         }
+    }
+    static class ApiCommands
+    {
+        public const string _LOGON_ = "/LogIn&?=";
+
     }
 }
