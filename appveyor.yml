@@ -11,16 +11,10 @@ environment:
 install:
 - choco install doxygen.portable
 before_build:
-- ps: >-
-    nuget install NuProj -Prerelease -OutputDirectory .\packages
-
-    nuget restore XLabs.sln
-
-    Import-PfxCertificate -FilePath .\Samples\XLabs.sample.pfx -CertStoreLocation Cert:\CurrentUser\My
 - appveyor RegisterXamarinLicense -Email %xamarin_email% -Password %xamarin_password% -Product iOS
 - appveyor RegisterXamarinLicense -Email %xamarin_email% -Password %xamarin_password% -Product Android
 build:
-  project: XLabs.sln
+  project: MangaReader/MangaReader.sln
   verbosity: quiet
 after_build:
 - appveyor UnregisterXamarinLicense -Email %xamarin_email% -Password %xamarin_password%
