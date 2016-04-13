@@ -11,6 +11,8 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ApiToManga.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainManga.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MangaChapters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MangaDataHolde.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)ApiKonzepZuMangat.txt" />
