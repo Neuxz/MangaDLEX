@@ -1,4 +1,5 @@
-# MangaDLEX
+# MangaDLEX 
+#[![Build status](https://ci.appveyor.com/api/projects/status/emmlbpu4jqhn7t2n?svg=true)](https://ci.appveyor.com/project/Neuxz/mangadlex)
 A cross Platform Manga Download and Reader
 focused for the use on mobile devices.
 
@@ -14,3 +15,13 @@ Works in future with [Herlock's Manga Downloader](https://github.com/herrlock/Ma
 ####Windows Vista, 7, 8(Future)
 ###OSX(NEVER!!)
 
+
+
+
+
+
+
+
+
+
+<image src="https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true" width="300">
