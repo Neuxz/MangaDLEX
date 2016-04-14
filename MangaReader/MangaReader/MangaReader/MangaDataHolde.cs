@@ -9,12 +9,14 @@ namespace MangaReader
         public int Manga_id = 0;
         public string Manga_name = "";
         public int Manga_chapter = 0;
-        private List<MangaChapters> Manga_chapter_local = new List<MangaChapters>();
-        public int Manga_chapter
+        private int manga_chapter_local;
+        private List<MangaChapters> Manga_chapter_localList = new List<MangaChapters>();
+
+        public int Manga_chapter_local
         {
             get
             {
-                return manga_chapter.Count;
+                return Manga_chapter_localList.Count;
             }
         }
     }
