@@ -24,4 +24,4 @@ Works in future with [Herlock's Manga Downloader](https://github.com/herrlock/Ma
 
 
 
-<image src="https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true" width="300">
+<image src="https://ci.appveyor.com/api/projects/status/emmlbpu4jqhn7t2n?svg=true" width="300">
