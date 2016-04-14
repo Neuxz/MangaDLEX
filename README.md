@@ -1,10 +1,11 @@
 # MangaDLEX 
-#[![Build status](https://ci.appveyor.com/api/projects/status/emmlbpu4jqhn7t2n?svg=true)](https://ci.appveyor.com/project/Neuxz/mangadlex)
 A cross Platform Manga Download and Reader
 focused for the use on mobile devices.
 
 ##Currently on alpha State.
 Works in future with [Herlock's Manga Downloader](https://github.com/herrlock/Manga)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/emmlbpu4jqhn7t2n?svg=true)](https://ci.appveyor.com/project/Neuxz/mangadlex)
 
 ##Supported OS
 ####Android(Alpha)
